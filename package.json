@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/zergreen/mvc-structure/issues"
   },
-  "homepage": "https://github.com/zergreen/mvc-structure#readme"
+  "homepage": "https://github.com/zergreen/mvc-structure#readme",
+  "dependencies": {
+    "cores": "^0.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
 }
