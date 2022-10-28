@@ -3,10 +3,10 @@ const mysql = require("mysql");
 //เชื่อมดาต้าเบส
 const connect = mysql.createConnection({
   host: "localhost",
-  database: "databasedb",
+  database: "mvc_db",
   port: 3306,
   user: "root",
-  password: "",
+  password: "admin",
 });
 
 connect.connect((err) => {

@@ -5,6 +5,10 @@ class Endpoint {
   constructor() {
     this.dataCpu = models.dataCpuModel;
   }
+
+  getAllEndpoint = (req, res) => {
+    new Logic().getAllLogic(req, res);
+  };
 }
 
 module.exports = {

@@ -6,4 +6,6 @@ router.get("/", function (req, res) {
   res.render("index", { title: "Home Page" });
 });
 
+router.get("/getAll", new Endpoint().getAllEndpoint);
+
 module.exports = router;
