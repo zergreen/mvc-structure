@@ -9,6 +9,10 @@ class Endpoint {
   getAllEndpoint = (req, res) => {
     new Logic().getAllLogic(req, res);
   };
+
+  getTableEndpoint = (req, res) => {
+    new Logic().getTableLogic(req, res);
+  };
 }
 
 module.exports = {
