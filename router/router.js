@@ -8,4 +8,6 @@ router.get("/", function (req, res) {
 
 router.get("/getAll", new Endpoint().getAllEndpoint);
 
+
+
 module.exports = router;
